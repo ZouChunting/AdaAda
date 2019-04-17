@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/main.css"/>
+    <script type="text/javascript" src="__PUBLIC__/Admin/js/libs/modernizr.min.js"></script>
+
+
+<include file="Common:header"/>
+<include file="Common:left"/>
+
+
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="/jscss/admin/design/">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/jscss/admin/design/">游戏管理</a><span class="crumb-step">&gt;</span><span>修改游戏</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+
+
+
+                <form action="" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                <input type="hidden" name="game_id" value="{$games.game_id}">
+                <input type="hidden" name="developer_id" value="{$games.developer_id}">
+                <input type="hidden" name="game_downloads" value="{$games.game_downloads}">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+
+
+                            <tr>
+                                <th><i class="require-red">*</i>游戏名称：</th>
+                                <td>
+                                    <input class="common-text required" id="title" name="game_name" size="50" value="{$games.game_name}" type="text">
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                            <th>
+                                <i class="require-red">*</i>游戏分类：
+                            </th>
+                            <td>
+                            <select class="test" style="width:40%;height:25px;border-style:none;color:#767676;" id="gameclass" name="gameclass">  
+                                    <option>请选择</option>
+                                    <volist name="cell" id="vo">
+                                        <option value="{$vo['class_id']}">{$vo['class_name']}</option>                        
+                                    </volist>
+                                </select>
+                            </td>
+                            </tr>
+                            
+                            <tr>
+                                <th><i class="require-red">*</i>是否推荐：</th>
+                                <td>
+                                    <input class="common-text required" id="title" name="game_reco" size="50" value="1" type="checkbox" <if condition="$games['game_reco'] eq 1"> checked="checked"</if>/>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <th><i class="require-red">*</i>是否过审：</th>
+                                <td>
+                                    <input class="common-text required" id="title" name="game_state" size="50" value="1" type="checkbox" <if condition="$games['game_state'] eq 1"> checked="checked"</if>/>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th><i class="require-red">*</i>缩略图：</th>
+                                <td><input name="game_pic" id="" type="file">
+                                <if condition="$games['game_pic'] neq null">
+                                <img src="__ROOT__{$games.game_pic}" height="30" />
+                                <else/>
+                                暂无图片
+                                </if>
+
+
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <th><i class="require-red">*</i>游戏安装包：</th>
+                                <td><input name="game_package" id="" type="file">
+                                </td>
+                            </tr>
+                            
+                            
+                            <tr>
+                                <th>内容：</th>
+                                <td><textarea name="game_des" class="common-textarea" id="des" cols="30" style="width: 98%;" rows="10">{$games.game_des}</textarea></td>
+                            </tr>
+
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+    <!--/main-->
+</div>
+</body>
+</html>

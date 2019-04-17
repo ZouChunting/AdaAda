@@ -1,0 +1,767 @@
+[ 2018-04-21T08:16:01+08:00 ] ::1 /AdaAda/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002600s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0570s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ada_game` WHERE `game_state` = 1 LIMIT 1   [ RunTime:0.0400s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_state` = 1 ORDER BY game_date DESC LIMIT 0,2   [ RunTime:0.0223s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_reco` = 1 ORDER BY game_date DESC LIMIT 10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.027692s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.028066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.174075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.174439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003615s ]
+
+[ 2018-04-21T08:16:06+08:00 ] ::1 /AdaAda/index.php/Home/Index/rank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002039s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ada_game` WHERE `game_state` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_state` = 1 ORDER BY game_downloads DESC LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_reco` = 1 ORDER BY game_date DESC LIMIT 10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000335s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000681s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.141295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002229s ]
+
+[ 2018-04-21T08:16:08+08:00 ] ::1 /AdaAda/index.php/Home/Index/classview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ada_game` WHERE `game_state` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_state` = 1 ORDER BY game_date DESC LIMIT 0,2   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ada_class` [ RunTime:0.1157s ]
+SQL: SELECT * FROM `ada_class`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000346s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000696s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002437s ]
+
+[ 2018-04-21T08:16:12+08:00 ] ::1 /AdaAda/index.php/Home/List/classlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ada_game` WHERE `cid` = 2 AND `game_state` = 1 ORDER BY game_date DESC  [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `ada_class` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ada_class`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000510s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000936s ]
+NOTIC: [8] Undefined variable: page E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\b174ce01728ead0e9f0f3cd20489e097.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003104s ]
+
+[ 2018-04-21T08:16:16+08:00 ] ::1 /AdaAda/index.php/Home/List/classlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001907s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ada_game` WHERE `cid` = 4 AND `game_state` = 1 ORDER BY game_date DESC  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ada_class` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ada_class`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000307s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000623s ]
+NOTIC: [8] Undefined variable: page E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\b174ce01728ead0e9f0f3cd20489e097.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002332s ]
+
+[ 2018-04-21T08:16:18+08:00 ] ::1 /AdaAda/index.php/Home/List/classlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ada_game` WHERE `cid` = 1 AND `game_state` = 1 ORDER BY game_date DESC  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ada_class` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ada_class`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000708s ]
+NOTIC: [8] Undefined variable: page E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\b174ce01728ead0e9f0f3cd20489e097.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002589s ]
+
+[ 2018-04-21T08:16:22+08:00 ] ::1 /AdaAda/index.php/Home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ada_game` WHERE `game_state` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_state` = 1 ORDER BY game_date DESC LIMIT 0,2   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_reco` = 1 ORDER BY game_date DESC LIMIT 10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000333s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000622s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002093s ]
+
+[ 2018-04-21T13:40:14+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005926s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0139s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ada_game` WHERE `game_state` = 1 LIMIT 1   [ RunTime:0.0150s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_state` = 1 ORDER BY game_date DESC LIMIT 0,2   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_reco` = 1 ORDER BY game_date DESC LIMIT 10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000329s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000706s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005485s ]
+
+[ 2018-04-21T13:40:17+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007375s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ada_game` WHERE `game_state` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_state` = 1 ORDER BY game_date DESC LIMIT 0,2   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_reco` = 1 ORDER BY game_date DESC LIMIT 10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000432s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000820s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003963s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004403s ]
+
+[ 2018-04-21T13:40:25+08:00 ] ::1 /AdaAda/index.php/Home/Index/game/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005786s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `ada_developer` [ RunTime:0.0234s ]
+SQL: SHOW COLUMNS FROM `ada_class` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_id` = 10 LIMIT 1   [ RunTime:0.0159s ]
+SQL: SELECT `developer_id` FROM `ada_game` WHERE `game_id` = 10 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ada_developer` WHERE `developer_id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `cid` FROM `ada_game` WHERE `game_id` = 10 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ada_class` WHERE `class_id` = 7 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_reco` = 1 ORDER BY game_date DESC LIMIT 10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000441s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000758s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\097156d57fd3cb2bb5060ec74c1da7ca.php 第 117 行.
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\097156d57fd3cb2bb5060ec74c1da7ca.php 第 138 行.
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\097156d57fd3cb2bb5060ec74c1da7ca.php 第 154 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004985s ]
+
+[ 2018-04-21T13:40:29+08:00 ] ::1 /AdaAda/index.php/Home/Index/download.html?game_id=10&user_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001309s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001664s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004558s ]
+
+[ 2018-04-21T13:40:32+08:00 ] ::1 /AdaAda/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005613s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000598s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005385s ]
+
+[ 2018-04-21T13:40:32+08:00 ] ::1 /AdaAda/index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004937s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005481s ]
+
+[ 2018-04-21T13:40:48+08:00 ] ::1 /AdaAda/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004847s ]
+SQL: SHOW COLUMNS FROM `ada_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ada_user` WHERE `user_name` = 'zct' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2018-04-21T13:40:48+08:00 ] ::1 /AdaAda/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003998s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ada_game` WHERE `game_state` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_state` = 1 ORDER BY game_date DESC LIMIT 0,2   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_reco` = 1 ORDER BY game_date DESC LIMIT 10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000673s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004018s ]
+
+[ 2018-04-21T13:40:50+08:00 ] ::1 /AdaAda/index.php/Home/Index/game/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004341s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `ada_developer` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ada_class` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_id` = 10 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `developer_id` FROM `ada_game` WHERE `game_id` = 10 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ada_developer` WHERE `developer_id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `cid` FROM `ada_game` WHERE `game_id` = 10 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ada_class` WHERE `class_id` = 7 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_reco` = 1 ORDER BY game_date DESC LIMIT 10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000461s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000796s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004119s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004411s ]
+
+[ 2018-04-21T13:40:51+08:00 ] ::1 /AdaAda/index.php/Home/Index/download.html?game_id=10&user_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004176s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0017s ]
+SQL: SELECT `game_package` FROM `ada_game` WHERE `game_id` = 10 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `game_downloads` FROM `ada_game` WHERE `game_id` = 10 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate E:\wamp64\www\AdaAda\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp64\www\AdaAda\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `ada_game` SET `game_downloads`='10' WHERE `game_id` = 10 [ RunTime:0.1346s ]
+SQL: SHOW COLUMNS FROM `ada_download` [ RunTime:0.0515s ]
+SQL: INSERT INTO `ada_download` (`game_id`,`user_id`) VALUES ('10','2') [ RunTime:0.0051s ]
+
+[ 2018-04-21T13:40:59+08:00 ] ::1 /AdaAda/index.php/Home/Index/collect.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005149s ]
+SQL: SHOW COLUMNS FROM `ada_collection` [ RunTime:0.0970s ]
+NOTIC: [8] Undefined variable: game_id E:\wamp64\www\AdaAda\Application\Home\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8] Undefined index: validate E:\wamp64\www\AdaAda\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp64\www\AdaAda\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ada_collection` (`game_id`,`user_id`) VALUES ('10','2') [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000562s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004609s ]
+
+[ 2018-04-21T13:41:00+08:00 ] ::1 /AdaAda/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004216s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ada_game` WHERE `game_state` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_state` = 1 ORDER BY game_date DESC LIMIT 0,2   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_reco` = 1 ORDER BY game_date DESC LIMIT 10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000299s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000596s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004374s ]
+
+[ 2018-04-21T13:41:03+08:00 ] ::1 /AdaAda/index.php/Home/Index/game/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004431s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ada_developer` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `ada_class` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_id` = 10 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `developer_id` FROM `ada_game` WHERE `game_id` = 10 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ada_developer` WHERE `developer_id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `cid` FROM `ada_game` WHERE `game_id` = 10 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ada_class` WHERE `class_id` = 7 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_reco` = 1 ORDER BY game_date DESC LIMIT 10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000375s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000675s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004275s ]
+
+[ 2018-04-21T13:41:05+08:00 ] ::1 /AdaAda/index.php/Home/Index/commentlist/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004558s ]
+SQL: SHOW COLUMNS FROM `ada_comment` [ RunTime:0.0243s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ada_comment` WHERE `game_id` = 10 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ada_comment` WHERE `game_id` = 10 ORDER BY comment_time DESC LIMIT 0,10   [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_reco` = 1 ORDER BY game_date DESC LIMIT 10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000380s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000697s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005358s ]
+
+[ 2018-04-21T13:41:08+08:00 ] ::1 /AdaAda/index.php/Home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004211s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ada_game` WHERE `game_state` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_state` = 1 ORDER BY game_date DESC LIMIT 0,2   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_reco` = 1 ORDER BY game_date DESC LIMIT 10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000581s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004233s ]
+
+[ 2018-04-21T13:41:10+08:00 ] ::1 /AdaAda/index.php/Home/Index/rank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003855s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ada_game` WHERE `game_state` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_state` = 1 ORDER BY game_downloads DESC LIMIT 0,2   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_reco` = 1 ORDER BY game_date DESC LIMIT 10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000341s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000814s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004480s ]
+
+[ 2018-04-21T13:41:17+08:00 ] ::1 /AdaAda/index.php/Home/Index/classview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004672s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ada_game` WHERE `game_state` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_state` = 1 ORDER BY game_date DESC LIMIT 0,2   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ada_class` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ada_class`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000677s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005581s ]
+
+[ 2018-04-21T13:41:20+08:00 ] ::1 /AdaAda/index.php/Home/List/classlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005388s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ada_game` WHERE `cid` = 1 AND `game_state` = 1 ORDER BY game_date DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ada_class` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ada_class`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000351s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000681s ]
+NOTIC: [8] Undefined variable: page E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\b174ce01728ead0e9f0f3cd20489e097.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007852s ]
+
+[ 2018-04-21T13:41:22+08:00 ] ::1 /AdaAda/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004598s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ada_game` WHERE `game_state` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_state` = 1 ORDER BY game_date DESC LIMIT 0,2   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000600s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005095s ]
+
+[ 2018-04-21T13:41:27+08:00 ] ::1 /AdaAda/index.php/Home/List/searchlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005172s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_name` LIKE '%故事%' AND `game_state` = 1 ORDER BY game_date DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000344s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000696s ]
+NOTIC: [8] Undefined variable: page E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\0685400783bf1e6d58215f84f30b2379.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005984s ]
+
+[ 2018-04-21T13:41:31+08:00 ] ::1 /AdaAda/index.php/Home/Dev/developer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004383s ]
+
+[ 2018-04-21T13:41:31+08:00 ] ::1 /AdaAda/index.php/Home/Login2/login2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004978s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000527s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005275s ]
+
+[ 2018-04-21T13:41:31+08:00 ] ::1 /AdaAda/index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004922s ]
+
+[ 2018-04-21T13:41:52+08:00 ] ::1 /AdaAda/index.php/Home/Login2/login2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001959s ]
+SQL: SHOW COLUMNS FROM `ada_developer` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ada_developer` WHERE `developer_name` = 'KG' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-04-21T13:41:52+08:00 ] ::1 /AdaAda/index.php/Home/Dev/developer.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001439s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ada_game` WHERE `developer_id` = 1 ORDER BY game_date DESC LIMIT 5   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ada_class` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ada_class`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000583s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002172s ]
+
+[ 2018-04-21T13:42:07+08:00 ] ::1 /AdaAda/index.php/Home/Login2/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005385s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000479s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004365s ]
+
+[ 2018-04-21T13:42:09+08:00 ] ::1 /AdaAda/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004792s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ada_game` WHERE `game_state` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_state` = 1 ORDER BY game_date DESC LIMIT 0,2   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_reco` = 1 ORDER BY game_date DESC LIMIT 10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000360s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000674s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004914s ]
+
+[ 2018-04-21T13:43:25+08:00 ] ::1 /AdaAda/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ada_game` WHERE `game_state` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_state` = 1 ORDER BY game_date DESC LIMIT 0,2   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ada_game` WHERE `game_reco` = 1 ORDER BY game_date DESC LIMIT 10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000377s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000652s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001880s ]
+

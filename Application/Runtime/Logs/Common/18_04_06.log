@@ -1,0 +1,204 @@
+[ 2018-04-06T15:59:30+08:00 ] ::1 /AdaAda/images/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001640s ]
+ERR: 无法加载模块:Images
+
+[ 2018-04-06T15:59:30+08:00 ] ::1 /AdaAda/Public/Home/images/header_shadow.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001212s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T15:59:30+08:00 ] ::1 /AdaAda/Public/Home/images/news-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002463s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T16:00:19+08:00 ] ::1 /AdaAda/images/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001423s ]
+ERR: 无法加载模块:Images
+
+[ 2018-04-06T16:00:19+08:00 ] ::1 /AdaAda/Public/Home/images/news-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001350s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T16:00:19+08:00 ] ::1 /AdaAda/Public/Home/images/header_shadow.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T16:01:58+08:00 ] ::1 /AdaAda/images/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001480s ]
+ERR: 无法加载模块:Images
+
+[ 2018-04-06T16:01:58+08:00 ] ::1 /AdaAda/Public/Home/images/header_shadow.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001304s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T16:01:58+08:00 ] ::1 /AdaAda/Public/Home/images/news-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001361s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T16:02:04+08:00 ] ::1 /AdaAda/index.php/images/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+ERR: 无法加载模块:Images
+
+[ 2018-04-06T16:02:04+08:00 ] ::1 /AdaAda/Public/Home/images/news-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001243s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T16:02:04+08:00 ] ::1 /AdaAda/Public/Home/images/header_shadow.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001390s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T16:02:06+08:00 ] ::1 /AdaAda/index.php/images/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001435s ]
+ERR: 无法加载模块:Images
+
+[ 2018-04-06T16:02:06+08:00 ] ::1 /AdaAda/Public/Home/images/news-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001278s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T16:02:06+08:00 ] ::1 /AdaAda/Public/Home/images/header_shadow.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001304s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T16:02:20+08:00 ] ::1 /AdaAda/index.php/images/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001780s ]
+ERR: 无法加载模块:Images
+
+[ 2018-04-06T16:02:20+08:00 ] ::1 /AdaAda/Public/Home/images/news-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001413s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T16:02:21+08:00 ] ::1 /AdaAda/Public/Home/images/header_shadow.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001477s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T16:02:51+08:00 ] ::1 /AdaAda/images/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001338s ]
+ERR: 无法加载模块:Images
+
+[ 2018-04-06T16:02:51+08:00 ] ::1 /AdaAda/Public/Home/images/header_shadow.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001422s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T16:02:51+08:00 ] ::1 /AdaAda/Public/Home/images/news-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001701s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T16:04:53+08:00 ] ::1 /AdaAda/images/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001589s ]
+ERR: 无法加载模块:Images
+
+[ 2018-04-06T16:04:53+08:00 ] ::1 /AdaAda/Public/Home/images/header_shadow.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001289s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T16:04:53+08:00 ] ::1 /AdaAda/Public/Home/images/news-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T16:05:24+08:00 ] ::1 /AdaAda/images/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001284s ]
+ERR: 无法加载模块:Images
+
+[ 2018-04-06T16:05:24+08:00 ] ::1 /AdaAda/Public/Home/images/header_shadow.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001310s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T16:05:24+08:00 ] ::1 /AdaAda/Public/Home/images/news-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001334s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T16:06:01+08:00 ] ::1 /AdaAda/Public/Home/images/header_shadow.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T16:06:01+08:00 ] ::1 /AdaAda/Public/Home/images/news-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001251s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T16:06:50+08:00 ] ::1 /AdaAda/Public/Home/images/news-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000281s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001916s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T16:06:50+08:00 ] ::1 /AdaAda/Public/Home/images/header_shadow.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001416s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T16:17:35+08:00 ] ::1 /AdaAda/Public/Home/images/news-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001277s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T16:30:37+08:00 ] ::1 /AdaAda/Public/Home/images/news-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001529s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T16:32:40+08:00 ] ::1 /AdaAda/Public/Home/img/news-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001429s ]
+ERR: 无法加载模块:Public
+

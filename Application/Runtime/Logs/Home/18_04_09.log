@@ -1,0 +1,105 @@
+[ 2018-04-09T13:30:17+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012042s ]
+ERR: 1146:Table 'adada.ada_first' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ada_first`
+ERR: 1146:Table 'adada.ada_first' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ada_first`
+
+[ 2018-04-09T13:30:47+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002378s ]
+ERR: 1146:Table 'adada.ada_first' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ada_first`
+ERR: 1146:Table 'adada.ada_first' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ada_first`
+
+[ 2018-04-09T13:31:18+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001778s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.012018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.012400s ]
+NOTIC: [8] Undefined variable: keyword E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004555s ]
+
+[ 2018-04-09T13:32:42+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001732s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000592s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002472s ]
+
+[ 2018-04-09T16:43:15+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034934s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001636s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001964s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002750s ]
+
+[ 2018-04-09T22:25:47+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003723s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001719s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.036079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005971s ]
+

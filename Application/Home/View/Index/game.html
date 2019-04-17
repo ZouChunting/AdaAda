@@ -1,0 +1,197 @@
+<!doctype html>
+<html  lang="zh-CN" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+
+    <link href='__PUBLIC__/Home/style/style.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/style/font.css">
+    <script type="text/javascript" src="__PUBLIC__/Home/style/jquery-1.11.3.min.js"></script>    
+
+
+
+<title>AdaAda</title>
+
+        <style type="text/css">
+            img.wp-smiley,
+            img.emoji {
+                display: inline !important;
+                border: none !important;
+                box-shadow: none !important;
+                height: 1em !important;
+                width: 1em !important;
+                margin: 0 .07em !important;
+                vertical-align: -0.1em !important;
+                background: none !important;
+                padding: 0 !important;
+            }    
+            .button {
+                background-color: #008CBA; 
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                -webkit-transition-duration: 0.4s; /* Safari */
+                transition-duration: 0.4s;
+             }
+             .button1 {
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+             }
+             .button2:hover {
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+             }
+        </style>
+
+</head>
+
+<body class="p-blog zh">
+
+<include file="Common:header"/>
+
+
+
+
+<div class="body">
+<div class="wrapper cls">
+
+    <div class="main">
+    <div class="list">
+          <ul>
+            <li>
+                <h1 class="title">{$games.game_name}</h1>
+                <div class="info">
+                    <span>{$games.game_date}</span>
+                    <span>开发者：{$dev.developer_name}</span>
+                    <span>分类：{$cla.class_name}</span>
+                    <span>下载量：{$games.game_downloads}</span>
+                </div>
+                
+                <!-- 游戏下载地址 -->
+                <form action="{:U('Index/download')}" class="download" method="get">     
+                <input type="hidden" name="game_id" value="{$games.game_id}" />  
+                <input type="hidden" name="user_id" value="{$_SESSION['user_id']}" />  
+                                游戏下载 ：                      
+                <input type="submit" class="button button1" value="{$games.game_name}">
+                
+                </form>
+
+                <!-- 游戏简介 -->
+                <br>
+                                游戏简介：<br>
+                {$games.game_des}<!-- 获取游戏简介 -->
+
+                <!-- 游戏截图 -->
+                <br><br>
+                                游戏截图：<br>      
+                <if condition="$games.game_pic neq null">
+                <img width="580" height="300" src="__ROOT__{$games.game_pic}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                <else/>
+                <img width="580" height="300" src="__ROOT__/Uploads/暂无图片.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                </if>
+                
+                <div style = "text-align:right;"> 
+                   <form action="{:U('Index/collect')}" class="collect" method="post">     
+                       <input type="hidden" name="game_id" value="{$games.game_id}" />  
+                       <input type="hidden" name="user_id" value="{$_SESSION['user_id']}" />  
+                                                    
+                       <input type="submit" class="button button2" value="收藏">
+                
+                </form>
+                   
+                   <a href="__CONTROLLER__/commentlist/id/{$games.game_id}"><button onclick="" class="button button2">查看评论>></button></a>            
+                </div>
+            </li>
+            <li>
+          <!-- 添加评论 -->
+        <form action="{:U('Index/comment')}" method="get">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                           添加评论：<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <textarea name="content" rows="5" cols="50"></textarea><br/>
+          <input type="hidden" name="game_id" value="{$games.game_id}" />  
+          <input type="hidden" name="user_id" value="{$_SESSION['user_id']}" />
+          <br>
+          <div style = "text-align:center;"> 
+          <button type="submit" class="button button2">评论</button>            
+          </div>          
+        </form>
+        
+        </li>
+          </ul>
+          </div>       
+
+    </div>
+
+
+
+        <div class="sticky-content-spacer">
+           <div id="sidebar" class="side">
+           <!-- Desktop Sidebar -->
+
+
+           <include file="Common:right"/>
+
+
+
+          </div>
+      </div>
+    </div>
+        <div class="clear"></div>
+</div>
+                
+
+<include file="Common:footer"/>
+
+      <script>
+        $(function($){
+            $('[data-ga]').click(function() {
+                var e = $(this).attr('data-ga').split('|');
+                ga('send', 'event', e[0], e[1], e[2]);
+            });
+
+
+        });
+
+        $(function() {
+          'use strict';
+
+          var $window = $(window);
+
+          $window.scroll(checkAnchorBar);
+
+          checkAnchorBar();
+
+          function checkAnchorBar() {
+            var $anchorBar = $('.anchor-bar');
+            var scrollTop = $window.scrollTop();
+
+            var $anchorStartElem = $('header');
+            var attachedClass = 'attached';
+
+            var threshold = $anchorStartElem.offset().top + $anchorStartElem.height();
+
+            if (!$anchorBar.hasClass(attachedClass) && scrollTop >= threshold) {
+              $anchorBar.addClass(attachedClass);
+            } else if ($anchorBar.hasClass(attachedClass) && scrollTop < threshold) {
+              $anchorBar.removeClass(attachedClass);
+            }
+          }
+        });
+    </script>
+
+
+    <div id="fb-root"></div>
+
+
+    </body>
+</html>

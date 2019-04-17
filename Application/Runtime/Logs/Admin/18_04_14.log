@@ -1,0 +1,532 @@
+[ 2018-04-14T00:07:51+08:00 ] ::1 /AdaAda/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002903s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000683s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003033s ]
+
+[ 2018-04-14T00:07:51+08:00 ] ::1 /AdaAda/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003803s ]
+
+[ 2018-04-14T00:08:01+08:00 ] ::1 /AdaAda/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002857s ]
+SQL: SHOW COLUMNS FROM `ada_manager` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `ada_manager` WHERE `manager_name` = 'CC' AND `manager_pwd` = 'cc' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-14T00:08:01+08:00 ] ::1 /AdaAda/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000727s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002919s ]
+
+[ 2018-04-14T00:08:03+08:00 ] ::1 /AdaAda/index.php/Admin/Game/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002928s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ada_game`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000407s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000896s ]
+NOTIC: [8] Undefined variable: articles E:\wamp64\www\AdaAda\Application\Runtime\Cache\Admin\2e61efd0b15cdf584fc500f29b39aaee.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004939s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003896s ]
+
+[ 2018-04-14T13:24:44+08:00 ] ::1 /AdaAda/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002731s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000589s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003915s ]
+
+[ 2018-04-14T13:24:44+08:00 ] ::1 /AdaAda/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004279s ]
+
+[ 2018-04-14T13:24:53+08:00 ] ::1 /AdaAda/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004185s ]
+SQL: SHOW COLUMNS FROM `ada_manager` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `ada_manager` WHERE `manager_name` = 'CC' AND `manager_pwd` = 'cc' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2018-04-14T13:24:53+08:00 ] ::1 /AdaAda/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002709s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000709s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002956s ]
+
+[ 2018-04-14T13:24:56+08:00 ] ::1 /AdaAda/index.php/Admin/Game/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002703s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ada_game`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000631s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002923s ]
+
+[ 2018-04-14T13:25:00+08:00 ] ::1 /AdaAda/index.php/Admin/Game/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002684s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000666s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002989s ]
+
+[ 2018-04-14T13:26:27+08:00 ] ::1 /AdaAda/index.php/Admin/Game/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002774s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined index: game_pic E:\wamp64\www\AdaAda\Application\Admin\Controller\GameController.class.php 第 24 行.
+NOTIC: [8] Undefined index: validate E:\wamp64\www\AdaAda\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp64\www\AdaAda\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1292:Incorrect datetime value: '1523683587' for column 'game_date' at row 1
+ [ SQL语句 ] : INSERT INTO `ada_game` (`game_name`,`game_reco`,`game_des`,`game_date`) VALUES ('','0','','1523683587')
+ERR: 1292:Incorrect datetime value: '1523683587' for column 'game_date' at row 1
+ [ SQL语句 ] : INSERT INTO `ada_game` (`game_name`,`game_reco`,`game_des`,`game_date`) VALUES ('','0','','1523683587')
+
+[ 2018-04-14T13:30:17+08:00 ] ::1 /AdaAda/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002752s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000564s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002765s ]
+
+[ 2018-04-14T13:30:17+08:00 ] ::1 /AdaAda/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003138s ]
+
+[ 2018-04-14T13:30:27+08:00 ] ::1 /AdaAda/index.php/Admin/Login/verify/0.9517054297494929
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003128s ]
+
+[ 2018-04-14T13:30:29+08:00 ] ::1 /AdaAda/index.php/Admin/Login/verify/0.4280319490592217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003233s ]
+
+[ 2018-04-14T13:30:37+08:00 ] ::1 /AdaAda/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003024s ]
+SQL: SHOW COLUMNS FROM `ada_manager` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ada_manager` WHERE `manager_name` = 'CC' AND `manager_pwd` = 'cc' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2018-04-14T13:30:37+08:00 ] ::1 /AdaAda/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002964s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000693s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003667s ]
+
+[ 2018-04-14T13:30:40+08:00 ] ::1 /AdaAda/index.php/Admin/Game/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002672s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ada_game`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000682s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002996s ]
+
+[ 2018-04-14T13:30:43+08:00 ] ::1 /AdaAda/index.php/Admin/Game/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002745s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000623s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002690s ]
+
+[ 2018-04-14T13:31:05+08:00 ] ::1 /AdaAda/index.php/Admin/Game/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002990s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0022s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp64\www\AdaAda\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate E:\wamp64\www\AdaAda\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp64\www\AdaAda\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1292:Incorrect datetime value: '1523683865' for column 'game_date' at row 1
+ [ SQL语句 ] : INSERT INTO `ada_game` (`game_name`,`game_reco`,`game_des`,`game_date`,`game_pic`) VALUES ('去月球','1','故事开始于提供这项服务的西格蒙德公司的两位职员伊娃·罗莎莉恩博士（Dr. Eva Rosalene）与尼尔·沃茨博士（Dr. Neil Watts）准备为垂死的约翰尼·威尔士（Johnny Wyles）实现一生的梦想：登陆月球，虽然约翰尼并不知道自己想前往月球的理由。两位博士为了完成这项任务进入约翰尼的记忆中，借由一个个约翰尼生命中的重要物品回朔时间。他们随着见证了约翰尼记忆中的一些重要时刻，渐渐地了解成就约翰尼当前惨状的缘由。在两位博士终于到达约翰尼的童年的之际，他们试图为约翰尼注入去月球的愿望，让约翰尼的内心制造基于这个愿望的新的人生与记忆，以求约翰尼死时没有任何遗憾。','1523683865','./Uploads/Picture2018-04-14/5ad1921945a67.jpg')
+ERR: 1292:Incorrect datetime value: '1523683865' for column 'game_date' at row 1
+ [ SQL语句 ] : INSERT INTO `ada_game` (`game_name`,`game_reco`,`game_des`,`game_date`,`game_pic`) VALUES ('去月球','1','故事开始于提供这项服务的西格蒙德公司的两位职员伊娃·罗莎莉恩博士（Dr. Eva Rosalene）与尼尔·沃茨博士（Dr. Neil Watts）准备为垂死的约翰尼·威尔士（Johnny Wyles）实现一生的梦想：登陆月球，虽然约翰尼并不知道自己想前往月球的理由。两位博士为了完成这项任务进入约翰尼的记忆中，借由一个个约翰尼生命中的重要物品回朔时间。他们随着见证了约翰尼记忆中的一些重要时刻，渐渐地了解成就约翰尼当前惨状的缘由。在两位博士终于到达约翰尼的童年的之际，他们试图为约翰尼注入去月球的愿望，让约翰尼的内心制造基于这个愿望的新的人生与记忆，以求约翰尼死时没有任何遗憾。','1523683865','./Uploads/Picture2018-04-14/5ad1921945a67.jpg')
+
+[ 2018-04-14T13:32:02+08:00 ] ::1 /AdaAda/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002917s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000748s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002969s ]
+
+[ 2018-04-14T13:32:03+08:00 ] ::1 /AdaAda/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003162s ]
+
+[ 2018-04-14T13:32:10+08:00 ] ::1 /AdaAda/index.php/Admin/Login/verify/0.20603675932064858
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003123s ]
+
+[ 2018-04-14T13:32:17+08:00 ] ::1 /AdaAda/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003569s ]
+SQL: SHOW COLUMNS FROM `ada_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ada_manager` WHERE `manager_name` = 'CC' AND `manager_pwd` = 'cc' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2018-04-14T13:32:17+08:00 ] ::1 /AdaAda/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002923s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000316s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000701s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003447s ]
+
+[ 2018-04-14T13:32:19+08:00 ] ::1 /AdaAda/index.php/Admin/Game/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002477s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `ada_game`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000350s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000678s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002700s ]
+
+[ 2018-04-14T13:32:21+08:00 ] ::1 /AdaAda/index.php/Admin/Game/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002935s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000307s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000868s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001992s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002884s ]
+
+[ 2018-04-14T13:32:33+08:00 ] ::1 /AdaAda/index.php/Admin/Game/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002854s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0020s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp64\www\AdaAda\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate E:\wamp64\www\AdaAda\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp64\www\AdaAda\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ada_game` (`game_name`,`game_reco`,`game_des`,`game_pic`) VALUES ('去月球','1','故事开始于提供这项服务的西格蒙德公司的两位职员伊娃·罗莎莉恩博士（Dr. Eva Rosalene）与尼尔·沃茨博士（Dr. Neil Watts）准备为垂死的约翰尼·威尔士（Johnny Wyles）实现一生的梦想：登陆月球，虽然约翰尼并不知道自己想前往月球的理由。两位博士为了完成这项任务进入约翰尼的记忆中，借由一个个约翰尼生命中的重要物品回朔时间。他们随着见证了约翰尼记忆中的一些重要时刻，渐渐地了解成就约翰尼当前惨状的缘由。在两位博士终于到达约翰尼的童年的之际，他们试图为约翰尼注入去月球的愿望，让约翰尼的内心制造基于这个愿望的新的人生与记忆，以求约翰尼死时没有任何遗憾。','./Uploads/Picture2018-04-14/5ad19271ceae0.jpg') [ RunTime:0.1127s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' E:\wamp64\www\AdaAda\Application\Admin\Controller\GameController.class.php 第 47 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000529s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002944s ]
+
+[ 2018-04-14T13:32:35+08:00 ] ::1 /AdaAda/index.php/Admin/Game/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002982s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ada_game`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000631s ]
+NOTIC: [8] Undefined index: game_title E:\wamp64\www\AdaAda\Application\Runtime\Cache\Admin\2e61efd0b15cdf584fc500f29b39aaee.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002790s ]
+
+[ 2018-04-14T13:34:09+08:00 ] ::1 /AdaAda/index.php/Admin/Game/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002752s ]
+SQL: SHOW COLUMNS FROM `ada_game` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ada_game`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000357s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000699s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002999s ]
+

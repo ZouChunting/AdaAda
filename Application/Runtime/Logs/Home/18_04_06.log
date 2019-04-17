@@ -1,0 +1,523 @@
+[ 2018-04-06T00:40:48+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002430s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000652s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002818s ]
+
+[ 2018-04-06T15:30:07+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002543s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002101s ]
+
+[ 2018-04-06T15:59:30+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000988s ]
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Undefined variable: keyword E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002264s ]
+
+[ 2018-04-06T16:00:19+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002315s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000664s ]
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Undefined variable: keyword E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002043s ]
+
+[ 2018-04-06T16:01:58+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000920s ]
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Undefined variable: keyword E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002407s ]
+
+[ 2018-04-06T16:02:04+08:00 ] ::1 /AdaAda/index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002273s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000569s ]
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Undefined variable: keyword E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002145s ]
+
+[ 2018-04-06T16:02:06+08:00 ] ::1 /AdaAda/index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001939s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000676s ]
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Undefined variable: keyword E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002479s ]
+
+[ 2018-04-06T16:02:20+08:00 ] ::1 /AdaAda/index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001827s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000514s ]
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Undefined variable: keyword E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002348s ]
+
+[ 2018-04-06T16:02:51+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002507s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000603s ]
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Undefined variable: keyword E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002522s ]
+
+[ 2018-04-06T16:04:53+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003987s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000574s ]
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Undefined variable: keyword E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001887s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002419s ]
+
+[ 2018-04-06T16:05:24+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003126s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000631s ]
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Undefined variable: keyword E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002048s ]
+
+[ 2018-04-06T16:06:01+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002738s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000627s ]
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Undefined variable: keyword E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001643s ]
+
+[ 2018-04-06T16:06:50+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001803s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000599s ]
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Undefined variable: keyword E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002456s ]
+
+[ 2018-04-06T16:17:35+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002221s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000640s ]
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Undefined variable: keyword E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002390s ]
+
+[ 2018-04-06T16:30:37+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002227s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000332s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000731s ]
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Undefined variable: keyword E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002368s ]
+
+[ 2018-04-06T16:32:40+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002350s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000613s ]
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Undefined variable: keyword E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002809s ]
+
+[ 2018-04-06T16:33:19+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002245s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000596s ]
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Undefined variable: keyword E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001723s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002405s ]
+
+[ 2018-04-06T16:41:29+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002198s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000612s ]
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Undefined variable: keyword E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002279s ]
+
+[ 2018-04-06T16:42:18+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002632s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000590s ]
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined variable: row E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Undefined variable: keyword E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001909s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002634s ]
+
+[ 2018-04-06T16:43:01+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001718s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000567s ]
+NOTIC: [8] Undefined variable: keyword E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001933s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002537s ]
+
+[ 2018-04-06T23:42:32+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.049510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000607s ]
+NOTIC: [8] Undefined variable: keyword E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005614s ]
+
+[ 2018-04-06T23:42:46+08:00 ] ::1 /AdaAda/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002949s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000564s ]
+NOTIC: [8] Undefined variable: keyword E:\wamp64\www\AdaAda\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004568s ]
+

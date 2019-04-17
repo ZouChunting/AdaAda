@@ -1,0 +1,17 @@
+<!-- 热门游戏 -->
+<div class="pop">
+    <div class="title">热门游戏</div>
+    <ul>
+    <volist name="greco" id="vo">
+       <li>
+           <div class="thumb"><a href="__CONTROLLER__/game/id/{$vo.game_id}">
+            <img width="1350" height="675" src="__ROOT__/{$vo.game_pic}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image"/></a>
+            </div>
+            <h2 class="topic"><a href="__MODULE__/index/game/id/{$vo.game_id}">{$vo.game_name}</a></h2>
+            <div class="clear"></div>
+       </li>
+       </volist>       
+    </ul>
+</div>
+<!-- 热门游戏end -->
+
